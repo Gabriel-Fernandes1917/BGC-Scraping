@@ -1,8 +1,11 @@
 const pup = require('puppeteer');
+const prompt = require('prompt-sync');
+const pt = prompt();
 
 const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // pagina
 
-const busca = "Pikachu"; // Pokemon que deseja pesquisar
+const busca = pt("Digite o nome do Pokemon que deseja achar o tipo "); // Pokemon que deseja pesquisar
+
 
 (async () => {
     const browser = await pup.launch();
