@@ -4,7 +4,7 @@ const pt = prompt();
 
 const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // pagina
 
-const busca = pt("Digite o nome do Pokemon que deseja pesquisar o tipo (obs: digite a primeira letra maiúsculas)"); // Pokemon que deseja pesquisar
+const busca = pt("Digite o nome do Pokemon que deseja pesquisar o tipo (obs: digite a primeira letra maiúsculas) \n"); // Pokemon que deseja pesquisar
 
 
 (async () => {
