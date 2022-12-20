@@ -21,7 +21,7 @@ Neste projeto foi utilizado:
 ## Como Usar
 
 ### 1 - Abra o terminal e digite o comando start com o seu gerenciador de pacotes.
-### 2 - Depois digite no terminal o nome do pokemon que deseja pesquisar (obs: digite a primeira letra maiúsculas).
+### 2 - Depois digite no terminal o nome do pokemon que deseja pesquisar (obs: digite a primeira letra maiúscula).
 
 ![Homepage image](https://raw.githubusercontent.com/Gabriel-Fernandes1917/BGC-Scraping/main/npmStart.jpg)
 
