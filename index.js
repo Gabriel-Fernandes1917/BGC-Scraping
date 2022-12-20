@@ -2,39 +2,29 @@ const pup = require('puppeteer');
 
 const url = "https://pokemon.fandom.com/pt-br/wiki/Pok%C3%A9dex_Nacional"; // pagina
 
-const busca = "Pikachu"; // item que quer pesquisar
+const busca = "Pikachu"; // Pokemon que deseja pesquisar
 
-(async () =>{
-    const browser = await pup.launch({headless: false}); // true n mostra as açoes, false mostra
-    const pagina = await browser.newPage();
-    console.log("Iniciando a busca");
+(async () => {
+    const browser = await pup.launch();
+    const page = await browser.newPage();
+    await page.goto(url);
+  
+    const data = await page.evaluate(() => {
+      const nome = Array.from(document.querySelectorAll('td')) // coleta todas as tags Td
 
-    await pagina.goto(url);
-    console.log("abriu url");
 
-    const opcoes = await pagina.$$eval('tr', el => el.map(title => title.title) ); // documento .querySelect all
-    console.log(opcoes);
+      return nome.map(td => td.innerText) // retorna um array com os itens das tabelas
+    });
 
-    for(const op of opcoes){
+      //console.log(data);
 
-        const nome = await pagina.$eval('td > a', element => element.innerText);
-        console.log(nome);
-        
-        if(nome == busca){
-            console.log("o pokemom existe ");
-           // const tipo = await pagina.$eval('td >span > a', element => element.innerText);
-           // console.log(tipo);
+    for(let i = 0; i < data.length; i++){
+        if(data[i] == busca){ // seleciona o tipo do pokemon
+
+            console.log(` O Pokemon ${busca} e do tipo ${data[i+1]}`)
+            return;
         }
+    }
 
-
-     }
-
-
-
-    // const obj = {pokemon, tipo}
-    // console.log(obj);
-
-    await browser.close();
-}) ();
-
-
+  await browser.close();
+})();
