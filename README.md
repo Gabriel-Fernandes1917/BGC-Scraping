@@ -11,6 +11,7 @@ Neste projeto foi utilizado:
 
 * Puppeteer version  19.4.1
 * Node version 19.4.1
+* prompt-sync version 4.2.0
 
 ## Serviços usados
 
@@ -19,48 +20,19 @@ Neste projeto foi utilizado:
 
 ## Como Usar
 
-### 1 - When you access, you will see the Home page <3
+### 1 - Abra o terminal e digite o comando start com o seu gerenciador de pacotes.
+### 2 - Depois digite no terminal o nome do pokemon que deseja pesquisar.
 
-![Homepage image](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/home.png)
+![Homepage image]([https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/home.png](https://github.com/Gabriel-Fernandes1917/BGC-Scraping/blob/main/npmStart.jpg?raw=true))
 
-### 2 - You can also see a lot of information on the Blog posts session.
+### 3 - Aguarde o BuscaMon fazer a pesquisa.
+### 4 - E pronto ! : )
 
-![Posts](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/posts.png)
-
-### 3 - Or access some of the posts :D
-
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_1.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_2.png)
-![Post show](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/post_3.png)
-
-### 4 - Or you can see my personal Portfolio.
-
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_1.png)
-![Portfolio](https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/portfolio_2.png)
+![Posts]([https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/posts.png](https://github.com/Gabriel-Fernandes1917/BGC-Scraping/blob/main/resultado%20pesquisa.jpg?raw=true))
 
 
-## Features
 
-The main features of the application are:
- - Publish Posts.
- - Learn a lot of information <3
+  ## Autor
 
+  * **Gabriel Fernandes** 
 
-## Links
-  - Deploy on Heroku: https://lucas-dev.com/
-  - Repository: https://github.com/Lucasdfg07/Blog_Lucas_Fernandes
-    - In case of sensitive bugs like security vulnerabilities, please contact
-      Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
-
-  ## Versioning
-
-  1.0.0.0
-
-
-  ## Authors
-
-  * **Lucas Siqueira Fernandes** 
-
-  Please follow github and join us!
-  Thanks to visiting me and good coding!
