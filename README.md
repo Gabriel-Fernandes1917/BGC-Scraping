@@ -3,7 +3,7 @@
 
 
 ## BuscaMon
-O BuscaMon é programa tem como objetivo encontrar o tipo do Pokemon que você procura.
+O BuscaMon é um programa que tem como objetivo ajudar você a encontrar o tipo do Pokemon que você procura.
 
 ## Tecnologias 
 
