@@ -23,12 +23,12 @@ Neste projeto foi utilizado:
 ### 1 - Abra o terminal e digite o comando start com o seu gerenciador de pacotes.
 ### 2 - Depois digite no terminal o nome do pokemon que deseja pesquisar.
 
-![Homepage image]([https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/home.png](https://github.com/Gabriel-Fernandes1917/BGC-Scraping/blob/main/npmStart.jpg?raw=true))
+![Homepage image](https://raw.githubusercontent.com/Gabriel-Fernandes1917/BGC-Scraping/main/npmStart.jpg)
 
 ### 3 - Aguarde o BuscaMon fazer a pesquisa.
 ### 4 - E pronto ! : )
 
-![Posts]([https://github.com/Lucasdfg07/Blog_Lucas_Fernandes/blob/master/public/readme/posts.png](https://github.com/Gabriel-Fernandes1917/BGC-Scraping/blob/main/resultado%20pesquisa.jpg?raw=true))
+![Posts](https://raw.githubusercontent.com/Gabriel-Fernandes1917/BGC-Scraping/main/resultado%20pesquisa.jpg)
 
 
 
